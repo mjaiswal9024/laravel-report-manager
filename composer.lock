@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "f0b4c7d4222b70b1eaa8a91db3a8157a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -221,6 +221,169 @@
                 "schedule"
             ],
             "time": "2019-03-31T00:38:28+00:00"
+        },
+        {
+            "name": "drivezy/laravel-access-manager",
+            "version": "v0.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drivezy/laravel-access-manager.git",
+                "reference": "f07e154ccd6cc3d7f00c032df7d4ad0e61134b9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drivezy/laravel-access-manager/zipball/f07e154ccd6cc3d7f00c032df7d4ad0e61134b9c",
+                "reference": "f07e154ccd6cc3d7f00c032df7d4ad0e61134b9c",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Drivezy\\LaravelAccessManager\\LaravelAccessManagerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drivezy\\LaravelAccessManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hemant Kumar Sah",
+                    "email": "hemantanshu@gmail.com"
+                }
+            ],
+            "description": "To manage the different access levels across multiple records, routes",
+            "time": "2019-05-29T03:52:51+00:00"
+        },
+        {
+            "name": "drivezy/laravel-admin",
+            "version": "v0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drivezy/laravel-admin.git",
+                "reference": "53f02356a818987c0649ef5eee73be058daa2a26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drivezy/laravel-admin/zipball/53f02356a818987c0649ef5eee73be058daa2a26",
+                "reference": "53f02356a818987c0649ef5eee73be058daa2a26",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Drivezy\\LaravelAdmin\\LaravelAdminServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drivezy\\LaravelAdmin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hemant Kumar Sah",
+                    "email": "hemantanshu@gmail.com"
+                }
+            ],
+            "description": "Api resources for laravel admin",
+            "time": "2019-05-02T06:18:41+00:00"
+        },
+        {
+            "name": "drivezy/laravel-record-manager",
+            "version": "v7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drivezy/laravel-record-manager.git",
+                "reference": "026fa2560cfa06e19db73a366dafc581a654927b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drivezy/laravel-record-manager/zipball/026fa2560cfa06e19db73a366dafc581a654927b",
+                "reference": "026fa2560cfa06e19db73a366dafc581a654927b",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Drivezy\\LaravelRecordManager\\LaravelRecordManagerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drivezy\\LaravelRecordManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hemant Kumar Sah",
+                    "email": "hemantanshu@gmail.com"
+                }
+            ],
+            "description": "To efficiently manage records & its audits",
+            "time": "2019-03-05T06:28:06+00:00"
+        },
+        {
+            "name": "drivezy/laravel-utility",
+            "version": "v0.11.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drivezy/laravel-utility.git",
+                "reference": "b337e85cc87b46ebf76cae7834e27a3284fbb569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drivezy/laravel-utility/zipball/b337e85cc87b46ebf76cae7834e27a3284fbb569",
+                "reference": "b337e85cc87b46ebf76cae7834e27a3284fbb569",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Drivezy\\LaravelUtility\\LaravelUtilityServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drivezy\\LaravelUtility\\": "src/"
+                },
+                "files": [
+                    "src/Library/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hemant Kumar Sah",
+                    "email": "hemantanshu@gmail.com"
+                }
+            ],
+            "description": "Base functionality for a scalable application.",
+            "time": "2019-05-29T03:47:01+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -3230,20 +3393,20 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72"
+                "reference": "8d0a041a565fc1e927e75f1d1bea5f34edf6e7d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
-                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/8d0a041a565fc1e927e75f1d1bea5f34edf6e7d1",
+                "reference": "8d0a041a565fc1e927e75f1d1bea5f34edf6e7d1",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.2"
             },
             "replace": {
                 "myclabs/deep-copy": "self.version"
@@ -3251,6 +3414,8 @@
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
+                "phpstan/phpstan": "^0.9.2",
+                "phpstan/phpstan-phpunit": "^0.9.4",
                 "phpunit/phpunit": "^7.1"
             },
             "type": "library",
@@ -3274,7 +3439,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2019-04-07T13:18:21+00:00"
+            "time": "2019-08-09T12:38:39+00:00"
         },
         {
             "name": "nunomaduro/collision",
